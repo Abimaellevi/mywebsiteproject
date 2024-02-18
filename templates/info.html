@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Abimael Levi</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/info.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Informações Pessoais</h1>
+        <div class="image">
+            <img src="{% static 'images/eu.jpg' %}" alt="Sua Foto">
+        </div>
+        <div class="text">
+            <p>Meu nome é Abimael Levi, tenho {{idade}} anos.</p>
+        </div>
+    </div>
+</body>
+</html>

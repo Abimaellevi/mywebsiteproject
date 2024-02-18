@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abimael Levi</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Abimael Levi Website</h1>
+    <img src="{% static 'images/foto.jpeg' %}" alt="Eu">
+    
+    <p>Esse site tem várias coisas relacionadas a mim, obrigado por ter vindo.</p>
+
+    <h2>Minhas coisas</h2>
+    
+    <div class="links">
+        <a href="{% url 'info' %}">
+            <img class="iconeImagem" src="{% static 'images/info.png' %}" alt="Crypto">
+            <span>Sobre mim</span>
+        </a>
+        <a href="{% url 'projetos' %}">
+            <img class="iconeImagem" src="{% static 'images/projetos.png' %}" alt="Projetos">
+            <span>Projetos</span>
+        </a>
+        <a href="{% url 'crypto' %}">
+            <img class="iconeImagem" src="{% static 'images/crypto.png' %}" alt="Crypto">
+            <span>Crypto</span>
+        </a>
+        <a href="{% url 'sistema' %}">
+            <img class="iconeImagem" src="{% static 'images/sistema.png' %}" alt="Crypto">
+            <span>Sistema</span>
+        </a>
+
+        <a href="{% url 'contato' %}">
+            <img class="iconeImagem" src="{% static 'images/contato.png' %}" alt="Contato">
+            <span>Contato</span>
+        </a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333; /* Cinza escuro para o dark mode */
+}
+
+h1 {
+    color: rgb(236, 145, 145);
+    font-size: 36px;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+h2 {
+    margin-top: 10px; /* Ajuste conforme necessário */
+    color: whitesmoke;
+}
+
+img {
+    max-width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px; /* Ajuste conforme necessário */
+    margin-bottom: 10px; /* Ajuste conforme necessário */
+}
+.info {
+    font-size: 18px;
+    color: whitesmoke;
+}
+    p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.iconeImagem {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Isso manterá a proporção da imagem */
+    border-radius: 0; /* Remove a borda circular */
+    display: block; /* Isso alinha a legenda abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+.iconeImagem + span {
+    display: block; /* Isso garante que a legenda seja exibida em uma nova linha */
+    margin-top: 5px; /* Ajuste a margem superior conforme necessário */
+    color: #fff; /* Cor da legenda */
+    font-size: 14px; /* Tamanho da fonte da legenda */
+}
+.links {
+    display: flex;
+    justify-content: center;  /* Isso distribuirá os elementos igualmente ao longo do eixo principal (horizontal) */
+    align-items: center;  /* Isso alinhará os itens verticalmente ao centro */
+}
+
+.links a {
+    text-decoration: aliceblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Isso centralizará os itens dentro dos links */
+    margin: 10px;  /* Ajuste conforme necessário para espaçamento entre os links */
+}
+
+.links img {
+    max-width: 50px;  /* Ajuste conforme necessário para o tamanho dos ícones */
+    max-height: 50px;
+}
