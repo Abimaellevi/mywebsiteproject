@@ -2,11 +2,14 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #333; /* Cinza escuro para o dark mode */
+    background-color: #222; /* Cinza escuro para o dark mode */
+    font-family: JetBrains-Mono;
 }
-
+.voltar {
+    text-decoration: none;
+}
 h1 {
-    color: rgb(236, 145, 145);
+    color: orange;
     font-size: 36px;
     margin-top: 20px; /* Ajuste conforme necessário */
 }

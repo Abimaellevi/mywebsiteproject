@@ -1,11 +1,22 @@
 /* seu_arquivo_css.css */
 
+body {
+    background-color: #222;
+    
+}
 /* Estilos gerais aqui, se necessário */
 .center-text {
     text-align: center;
-    text-shadow: blue;
+    color: orange;
 }
 
+.sobremim {
+    text-decoration: none !important; 
+    
+}
+.voltar {
+    text-decoration: none;
+}
 .container {
     max-width: 1000px; /* ou o valor desejado */
     margin: 0 auto;
@@ -18,9 +29,19 @@
 }
 
 .text {
-    float: left;
-    margin: 0; /* Ajuste a margem conforme necessário */
+    float: center;
+    margin: 30; /* Ajuste a margem conforme necessário */
     font-size: large;
+    color: whitesmoke;
+}
+h1 {
+    color: orange;
+}
+h2 {
+    color: orange;
+}
+p {
+    color: whitesmoke;
 }
 
 /* Estilos adicionais conforme necessário */

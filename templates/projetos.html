@@ -5,10 +5,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/projetos.css' %}">
     <title>Projetos - Abimael Levi</title>
 </head>
 <body>
-    Projetos aqui
+    <a class="voltar" href="/">    <h1> Projetos </h1>    </a>
+    <div class="project-gallery">
+        <a href="https://github.com/Abimaellevi/Django-Agenda">
+            <img src="{% static 'images/agenda.jpg' %}" alt="Projeto 1">
+            <span class="caption">Projeto agenda</span>
+            <p> Projeto de agenda feita em django que salva contatos e os enumera como uma lista telefônica.</p>
+        </a>
+        <a href="link-para-projeto-2">
+            <img src="{% static 'images/crypto.png' %}" alt="Projeto 2">
+            <span class="caption">Legenda do Projeto 2</span>
+        </a>
+        <a href="link-para-projeto-3">
+            <img src="{% static 'images/sistema.png' %}" alt="Projeto 3">
+            <span class="caption">Legenda do Projeto 3</span>
+        </a>
+    </div>
+    
 </body>
 </html>

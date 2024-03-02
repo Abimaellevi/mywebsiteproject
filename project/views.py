@@ -30,4 +30,4 @@ def crypto(request):
 def sistema(request):
     return render(request, 'sistema.html')
 def contato(request):
-    return render(request, 'info.html')
+    return render(request, 'contato.html')

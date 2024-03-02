@@ -1,0 +1,33 @@
+body {
+    background-color: #222;
+}
+h1 {
+    text-align: center;
+    color: orange;
+}
+.project-gallery {
+    display: flex;
+    justify-content: space-between; /* Distribui os itens igualmente na linha */
+    margin: 100px; /* Adiciona uma margem ao redor da galeria */
+}
+
+.project-gallery a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke; /* Cor do texto */
+}
+
+.project-gallery img {
+    width: 200px; /* Define a largura das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 3px ; /* Adiciona uma borda ao redor das imagens */
+}
+.voltar {
+    text-decoration: none;
+}
+.project-gallery .caption {
+    display: block;
+    margin-top: 10px; /* Espaçamento entre a imagem e a legenda */
+    font-size: 20px; /* Tamanho da fonte da legenda */
+}
